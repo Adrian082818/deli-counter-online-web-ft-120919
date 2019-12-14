@@ -20,11 +20,10 @@ end
 def now_serving(line)
   if line.length == 0 
     puts "There is nobody waiting to be served!"
-  elsif 
+  else 
   puts "Currently serving #{line.length[0]}."
-else 
-  puts 
-  
+ end 
+ line.shift
 end 
 
 
