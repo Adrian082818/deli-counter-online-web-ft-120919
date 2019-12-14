@@ -17,7 +17,8 @@ def take_a_number(number, name)
   puts "Welcome, #{name}. You are number #{number.length} in line."
 end 
 
-def now_serving(katz_deli)
+def now_serving(line)
+  
   
 end 
 
