@@ -18,7 +18,8 @@ def take_a_number(number, name)
 end 
 
 def now_serving(line)
-  
+  if line.length == 0 
+    
   
 end 
 
